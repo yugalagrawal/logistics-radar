@@ -1,0 +1,200 @@
+# Logistics Radar configuration. Edit freely — no code changes needed.
+
+# Who you are. The LLM uses this to decide what is "important" for you.
+profile: |
+  I am a Product Manager at a B2B trucking and logistics company: intra-city and
+  inter-city freight, FTL and PTL, contract fleets for enterprises, plus fleet and
+  driver-partner operations.
+
+  IN SCOPE: B2B trucking, FTL/PTL/LTL, road freight, freight marketplaces,
+  contract logistics / 3PL, fleet management, driver-partner platforms, EV cargo
+  fleets, freight tech (TMS, telematics, route optimisation), trucking VAS
+  (freight finance, fuel, insurance, FASTag) and road-freight policy.
+
+  OUT OF SCOPE (score 1-3): B2C and quick-commerce consumer features, ride-hailing,
+  stock-price articles, generic market-research press releases, air/sea/port news
+  with no road-freight angle, passenger EVs and two-wheelers.
+
+  I care MOST about new business models, value-added services, product launches
+  and innovation in my space, in India or globally.
+
+settings:
+  timezone: Asia/Kolkata
+  lookback_hours: 36          # ignore articles older than this
+  max_items_per_run: 200      # cap on items sent to the LLM per run (protects free quota)
+  batch_size: 20              # items per LLM request
+  keep_days: 30               # how long scored items are stored for the weekly digest
+  empty_daily_message: "No news today bro 😎"
+
+  # Each subsection shows every must-read item (up to max), and is topped up
+  # to `min` with the next-best items even if they score lower.
+  daily:
+    must_read_score: 8
+    filler_min_score: 5       # never show items scored below this (keeps out-of-scope news out)
+    sections:
+      innovation: {min: 5, max: 5}   # 💡 Innovation Radar
+      supply:     {min: 2, max: 3}   # 🎯 Growth Playbook · 🚛 Supply
+      demand:     {min: 2, max: 3}   # 🎯 Growth Playbook · 🤝 Demand
+      ptl:        {min: 2, max: 3}   # 🎯 Growth Playbook · 📦 PTL / LTL
+      india:      {min: 3, max: 5}   # 📰 Market Pulse · 🇮🇳 India
+      global:     {min: 2, max: 3}   # 📰 Market Pulse · 🌍 Global
+  # Weekly digest is off (removed from the schedule); still runnable manually as `weekly`.
+  weekly:
+    must_read_score: 7
+    filler_min_score: 6
+    sections:
+      innovation: {min: 5, max: 8}
+      supply:     {min: 2, max: 4}
+      demand:     {min: 2, max: 4}
+      ptl:        {min: 2, max: 4}
+      india:      {min: 3, max: 7}
+      global:     {min: 2, max: 5}
+
+# Example growth goals -> the GROWTH PLAYBOOK section. The AI tags each story with
+# the goal it informs. Replace these with your own.
+growth_goals:
+  supply:
+    label: "🚛 Supply"
+    subtitle: "Partners, truckers, fleet owners"
+    meaning: >
+      Growing and retaining the supply side: truck owners, drivers, fleet partners,
+      vehicle financing, driver earnings, incentives and onboarding.
+  demand:
+    label: "🤝 Demand"
+    subtitle: "Clients, market share, opportunities"
+    meaning: >
+      Winning more shippers: sectors where B2B freight demand is opening up, SMEs,
+      new hubs, government schemes, and new ways to sell.
+  ptl:
+    label: "📦 PTL / LTL"
+    subtitle: "Part-load"
+    meaning: >
+      News about PTL / LTL / B2B express cargo players: network, hubs, pricing,
+      launches, tech, and gaps to exploit.
+
+# Categories the LLM picks from (shown as a tag on each item).
+categories:
+  - Competitor
+  - Funding & M&A
+  - Customer & Market
+  - Policy & Regulation
+  - EV & Fleet
+  - Product & VAS
+  - Tech & Automation
+  - Patent & R&D
+  - Other
+
+# Google News searches (India edition). Add anything: competitors, customers, themes.
+google_news:
+  # India peers in B2B trucking / freight / PTL
+  - Porter logistics OR "Porter enterprise"
+  - BlackBuck trucking OR BlackBuck logistics OR "Zinka Logistics"
+  - Delhivery freight OR Delhivery PTL OR Delhivery truckload
+  - Rivigo
+  - Vahak OR Blowhorn
+  - TCI Express OR "Transport Corporation of India"
+  - Mahindra Logistics
+  - Safexpress OR Gati logistics OR "VRL Logistics"
+  - Shadowfax B2B OR LoadShare
+  - Borzo OR Wefast
+  - Magenta Mobility OR "Zyngo EV" OR "EVage" OR "Euler Motors"
+  # India themes
+  - trucking startup India
+  - '"part truck load" OR "PTL logistics" OR "PTL freight" OR "PTL services" India'
+  - FTL OR "full truck load" India freight
+  - B2B logistics India
+  - intra-city logistics India
+  - contract logistics India 3PL
+  - freight marketplace India
+  - fleet management India trucks
+  - electric truck fleet India cargo
+  - truck drivers platform India
+  - freight finance OR "fuel card" OR FASTag trucks India
+  - logistics startup funding India
+  # Growth goal: supply (partners, truckers)
+  - truck owners OR truckers India earnings OR incentives OR onboarding
+  - truck driver shortage OR driver retention trucking
+  - commercial vehicle finance OR "vehicle leasing" truck owners India
+  - driver partner app trucking OR "fleet owners" platform
+  # Growth goal: demand (clients, market share)
+  - FMCG OR e-commerce OR retail "logistics partner" India contract
+  - shippers switch logistics provider OR "logistics contract" India
+  - SME MSME logistics demand India
+  - festive season logistics demand India trucks
+  # Growth goal: PTL / LTL
+  - Delhivery PTL OR "Delhivery part truckload" OR "Delhivery freight" growth
+  - Safexpress OR "TCI Express" OR "Gati Express" network expansion
+  - LTL carriers pricing OR "LTL network" OR "less-than-truckload" market
+  - freight consolidation OR cross-dock hub India
+  # Innovation, new business models, VAS (India + global)
+  - trucking "new business model" OR "launches" freight platform
+  - freight tech launches OR "digital freight" platform
+  - trucking value added services OR "embedded finance" trucking
+  - autonomous trucking OR "AI dispatch" OR "freight AI"
+  - route optimisation OR fleet telematics trucks
+  - electric truck leasing OR "fleet as a service"
+  - LTL innovation OR "less than truckload" technology
+  - trucking patent OR freight patent
+  # Global peers
+  - Uber Freight OR Flexport OR Lalamove
+  - project44 OR FourKites OR Samsara trucking
+  - Amazon Freight OR "Amazon Shipping" trucking
+  - digital freight brokerage
+  # Policy (road freight)
+  - National Logistics Policy OR ULIP OR "PM Gati Shakti"
+  - e-way bill OR GST transporters
+  - MoRTH trucks regulation OR truck drivers rules India
+  - diesel price truckers India
+
+# Direct RSS feeds (verified working).
+# filter: true -> only keep items that match a word in `keywords` below
+# (use for broad feeds like startup news, to save LLM quota).
+feeds:
+  - {name: ET Infra Logistics,       url: "https://infra.economictimes.indiatimes.com/rss/logistics"}
+  - {name: ET Transportation,        url: "https://economictimes.indiatimes.com/industry/transportation/rssfeeds/13353990.cms", filter: true}
+  - {name: BusinessLine Logistics,   url: "https://www.thehindubusinessline.com/economy/logistics/feeder/default.rss"}
+  - {name: Logistics Insider,        url: "https://www.logisticsinsider.in/feed/"}
+  - {name: Inc42,                    url: "https://inc42.com/feed/", filter: true}
+  - {name: Entrackr,                 url: "https://entrackr.com/rss", filter: true}
+  - {name: YourStory,                url: "https://yourstory.com/feed", filter: true}
+  - {name: Mint Companies,           url: "https://www.livemint.com/rss/companies", filter: true}
+  - {name: TechCrunch Logistics,     url: "https://techcrunch.com/tag/logistics/feed/"}
+  - {name: FreightWaves,             url: "https://www.freightwaves.com/news/feed", filter: true}
+  - {name: Supply Chain Dive,        url: "https://www.supplychaindive.com/feeds/news/"}
+  - {name: SupplyChainBrain,         url: "https://www.supplychainbrain.com/rss/articles", filter: true}
+  - {name: The Loadstar,             url: "https://theloadstar.com/feed/", filter: true}
+
+# Headlines matching any of these (regex, case-insensitive) are dropped before scoring:
+# market-research press releases and stock-price chatter.
+exclude_patterns:
+  - '\bmarket (size|share|report|forecast|research|outlook|to 20\d\d)'
+  - '\bforecast (to|till|through) 20\d\d'
+  - '\bCAGR\b'
+  - '\b(share|stock) price\b'
+  - '\bshares? (rise|rises|fall|falls|jump|jumps|surge|surges|slump|slumps|gain|gains|drop|drops|tank|rally)'
+  - '\bis rated (buy|sell|hold)\b'
+  - '\b(open interest|target price|buy rating|sell rating|technical strength|stock to watch|stocks to buy)\b'
+  - '\((NSE|BSE|NASDAQ|NYSE)[: ]'
+  - '(?-i:\b[A-Z]{2,5} [Ss]tock\b)'
+
+# Used by `filter: true` feeds (case-insensitive substring match on title + summary).
+keywords:
+  - logistic
+  - freight
+  - truck
+  - fleet
+  - cargo
+  - supply chain
+  - warehous
+  - 3pl
+  - ptl
+  - ftl
+  - ltl
+  - courier
+  - shipment
+  - transporter
+  - porter
+  - delhivery
+  - blackbuck
+  - rivigo
+  - mahindra logistics
