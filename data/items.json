@@ -22820,7 +22820,8 @@
   "region": "global",
   "theme": "supply",
   "why": "Deploy dispatch‑error tool to cut costs and improve driver earnings.",
-  "scored_at": "2026-10-20T07:53:04.711023+00:00"
+  "scored_at": "2026-10-20T07:53:04.711023+00:00",
+  "sent": true
  },
  {
   "key": "20e3014ca4e7e5d2",
@@ -23826,7 +23827,8 @@
   "region": "global",
   "theme": "demand",
   "why": "New shipper‑carrier value services to deepen client relationships",
-  "scored_at": "2026-10-21T07:56:52.714226+00:00"
+  "scored_at": "2026-10-21T07:56:52.714226+00:00",
+  "sent": true
  },
  {
   "key": "2effdd3546bc26b8",
@@ -23980,7 +23982,8 @@
   "region": "global",
   "theme": "demand",
   "why": "Steady spot rates signal pricing stability for shipper acquisition.",
-  "scored_at": "2026-10-21T07:56:52.714226+00:00"
+  "scored_at": "2026-10-21T07:56:52.714226+00:00",
+  "sent": true
  },
  {
   "key": "4dbaa59e0e7f60c8",
@@ -25355,7 +25358,8 @@
   "region": "india",
   "theme": "supply",
   "why": "AI workforce tool could boost driver partner onboarding and retention",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "677e4770803c8fb0",
@@ -25464,7 +25468,8 @@
   "region": "india",
   "theme": "supply",
   "why": "MoU accelerates EV truck rollout, supporting green fleet expansion.",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "dec17bda07531716",
@@ -25616,7 +25621,8 @@
   "region": "global",
   "theme": "supply",
   "why": "Autonomous software augments driver teams, boosting efficiency",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "502983e4819d7b51",
@@ -25707,7 +25713,8 @@
   "region": "global",
   "theme": "demand",
   "why": "Encourages multi‑load‑board strategy to grow shipper base",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "cf1a83b8d2ff1468",
@@ -26117,7 +26124,8 @@
   "region": "global",
   "theme": "demand",
   "why": "Rate hikes signal higher lane costs; adjust pricing strategy.",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "80ccc4e17cd00084",
@@ -26192,7 +26200,8 @@
   "region": "global",
   "theme": "supply",
   "why": "Clear EV incentives needed to accelerate fleet electrification.",
-  "scored_at": "2026-10-23T07:52:32.154023+00:00"
+  "scored_at": "2026-10-23T07:52:32.154023+00:00",
+  "sent": true
  },
  {
   "key": "4c21763434ae01fa",
@@ -26695,7 +26704,8 @@
   "region": "india",
   "theme": "supply",
   "why": "Add ePod‑type electric LCVs to attract small fleet partners.",
-  "scored_at": "2026-10-24T07:33:27.388492+00:00"
+  "scored_at": "2026-10-24T07:33:27.388492+00:00",
+  "sent": true
  },
  {
   "key": "243be1699e98766b",
@@ -27199,7 +27209,8 @@
   "region": "india",
   "theme": "supply",
   "why": "Regulatory hold at border hampers fleet utilisation; need contingency plans.",
-  "scored_at": "2026-10-24T07:33:27.388492+00:00"
+  "scored_at": "2026-10-24T07:33:27.388492+00:00",
+  "sent": true
  },
  {
   "key": "84a3ad95881b3852",
@@ -27230,5 +27241,295 @@
   "theme": "demand",
   "why": "Chemical park near new port likely creates freight demand for bulk cargo.",
   "scored_at": "2026-10-24T07:33:27.388492+00:00"
+ },
+ {
+  "key": "92a3aa286c543342",
+  "title": "India Holds 40% Of Global Rice Exports, Experts Say - Sarkaritel.com",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbzhnRkpWOEFtdWRoWkUwVGpOV0lCc2R0MGpFUmdmdGwyMV9RVlZaT0lxYmNLbnJ5SFNGUGxDWTN6cjVVejkwNDNxcUtmaUpxNzA2S0NBblJGRk5wV1BHd2FmelRtS3FZMXItSG1kZGhoOGxJbmQzOU56bTlITTYtd2toZDU?oc=5",
+  "source": "Sarkaritel.com",
+  "summary": "",
+  "published": "2026-10-25T06:34:56+00:00",
+  "score": 4,
+  "category": "Customer & Market",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Macro rice export data, limited freight relevance.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "23ba345b3c9da8ec",
+  "title": "Cost barrier threatens Europe’s transition to greener road freight – IRU survey - HGV Ireland",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcW1NaTBFRG0wdHY0RXZEdTBBMXc3MVk1NXpCM29mdnRXbG9fdW5mTW9FZzNwY2kwRkF3aFlDRk9PT0hlcGs4dkZWX0pVSnUyU2pRSjNSSlRQWWVBRldyaVlzazQ1VHJKdFVnLU4zenBxU3dsMm0zRlhVZXdfQ2NGbFV1MWdyT2ZfWFBIaE95bHhLbHBGLWZmNHV6eGpYaVVFWlpSNENFNA?oc=5",
+  "source": "HGV Ireland",
+  "summary": "",
+  "published": "2026-10-25T06:26:48+00:00",
+  "score": 6,
+  "category": "EV & Fleet",
+  "section": "industry",
+  "region": "global",
+  "theme": "supply",
+  "why": "Cost barriers signal EV truck adoption challenges.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "e9fea519a13ec0ed",
+  "title": "GST Refund Ordered In Appeal Can’t Be Denied Over Delayed Portal Upload: Gujarat High Court Allows Refund - Juris Hour",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOMG1md0R1NmphaTkxVFBERFpKZVN6b2t4Z3I5MGZBY0FmN2tXZGJDaFBMWkFJSXAtZm9JRUlOTEdCZzFFb0I3b1hlU1NvMzZqd1FIRHc2MGhLVmJDNGpISUtrb29PWThUQXEzbl9PTmNiVUxWdUFmaEdqNi1pTjh5NA?oc=5",
+  "source": "Juris Hour",
+  "summary": "",
+  "published": "2026-10-25T05:02:39+00:00",
+  "score": 4,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "GST refund ruling, limited impact on logistics ops.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "ca485c14d7b0f917",
+  "title": "PM Gati Shakti to Accelerate Integrated Infrastructure Development and Good Governance in Uttarakhand: Prof. Surekha Dangwal - Prashant News",
+  "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX01WVFNfbDFzQzJsZkpNYWkyMHROQW4wVG5lbC01d3REUzY0WWtoSmNXb05XVmUzSlNRXzRkalFMTHBCMEtxNW4yNnVYdGdHSXJEVVhhdi1sU3VobjhyaDJLbjNUdEZpd2Y0TEJMaHh1U1d5bzgtWDR0TkpzQlR0N3NMZkVKRldINkpHeGFiWDl2aHFtR0k4ZmN4amdMMGdORno5dXJhUDNFcERXdm4taEdNQnJtQ181Vzd5OUlaVlZWdGhCZVZCRGRnVW02TTMxLTlxXzRrUXpaRnB1bkRDVkNxSzdXb0E?oc=5",
+  "source": "Prashant News",
+  "summary": "",
+  "published": "2026-10-25T01:51:24+00:00",
+  "score": 5,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "supply",
+  "why": "New infrastructure projects could expand road freight capacity.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "bc298440c00f73f0",
+  "title": "Tata Motors stands firm on ₹1,531-per-share Iveco bid as investor questions valuation: All you need to know",
+  "link": "https://www.livemint.com/companies/tata-motors-stands-firm-on-1-531-per-share-iveco-bid-as-investor-questions-valuation-all-you-need-to-know-11792865438375.html",
+  "source": "Mint Companies",
+  "summary": "Tata Motors has refused to raise its offer to buy Italian truck maker Iveco while investor who owns 3.8% of Iveco claims the price is too low. Tata Motors is expected to buy more than 80% of the company's shares by the deadline.",
+  "published": "2026-10-24T18:29:44+00:00",
+  "score": 8,
+  "category": "Funding & M&A",
+  "section": "industry",
+  "region": "india",
+  "theme": "supply",
+  "why": "Tata‑Iveco deal could reshape truck supply and pricing in India",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00",
+  "sent": true
+ },
+ {
+  "key": "0fa5cf27276ed3ad",
+  "title": "Blacktown’s EV Journey Shows Why Fleet Conversations Matter - Fleet EV News",
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcjBHOUNMVjdUT2Q2TzVYelA3YmlJUDBhQU9oRlpVTzh2blVWdk13RFpMdVFhUHB6RnRETS12VDF4aWNXRU9WSUZyRDZCdU5fTnBBcVNPTUdQUlRsNXJVSXlmMGNFVXotMlVSODZtWS0xZ09MaWJtLXdFX3dVR1hYelZnLXM1RFk?oc=5",
+  "source": "Fleet EV News",
+  "summary": "",
+  "published": "2026-10-24T18:10:00+00:00",
+  "score": 7,
+  "category": "EV & Fleet",
+  "section": "innovation",
+  "region": "global",
+  "theme": "supply",
+  "why": "Shows fleet‑owner benefits of EV conversion, useful for LT EV‑as‑a‑service",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00",
+  "sent": true
+ },
+ {
+  "key": "7351cb46df6b0706",
+  "title": "Best 8 Logistics Management Software for eCommerce in India - ClickPost",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jV3JjdHR2RzVibGwzUXNfakhqWXQwSWF0X0JDazRObFdZMHEyR1AwbTJ4b3ZRcWtGc0ZSSFJjMlNkMjV4aTlxVkdaSGZsV3dmRl9MamYyaDJMZG9yRE5MM1E3UWNRRFNOM0JLSVhfODhldExDREJLNl9Oc1ZkUQ?oc=5",
+  "source": "ClickPost",
+  "summary": "",
+  "published": "2026-10-24T17:24:13+00:00",
+  "score": 5,
+  "category": "Tech & Automation",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Software list may inspire feature ideas for LT TMS",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "51367f98adce9d3b",
+  "title": "​Transport Ministry Orders CERT-In Audit of Four Portals Over Vehicle Data Leak Reports - The420.in",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQk9JbnpfbEdVOXhsR2ZPUkNnSW5CNVFUQkJ6QlNkTFpsbmxkLVFPMC04N21GSXEzVDI4Ukc3cExKcjJNTUhWX1IxTG1IdnpJVVVZTVRRWi1Ec3VvSU9XWTRfT3BpT3hmb1VpY1lXM09SSkw3MHpOYmswemx6N293SQ?oc=5",
+  "source": "The420.in",
+  "summary": "",
+  "published": "2026-10-24T17:09:11+00:00",
+  "score": 6,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Data‑leak audit could affect portal reliability for fleet partners",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "02d04520ee245864",
+  "title": "Better logistics, trade pacts, policy support can boost India's rice exports: Industry leaders at BIRC 2026 - India's News.Net",
+  "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxON051aWVBX2pXRS0tZ3QtM0hyMGZHNFFlcktvWGxTdmUydUNiTlczM0kxUGJKVVVqaWJkYUVld1JOMUs2NW9BRmVsTnVKVW1ucl95OFJRRWE2cGdLUnhaZWtyNEk4NHNTZUEybU1EZFpQZFo1cWwybXYtU0NpTlk4eWF6QUkzUEVkckEzMXhxaFZpX3d3aGZLSjdlUkh6LTJHeVFNQXZ1dG9oRWZxd0ZraDZRS2hjYVRUWHRaODJmVGVMandWLU44d2RRSWtTLVFfNjJCWW14R1M5RTFL?oc=5",
+  "source": "India's News.Net",
+  "summary": "",
+  "published": "2026-10-24T16:33:00+00:00",
+  "score": 6,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "demand",
+  "why": "Policy support may boost freight demand for rice exports",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "63ae9a2d65a0c96b",
+  "title": "Pakistan's LPG crisis deepens as prices hit 600 PKR/kg, hundreds of trucks stranded at Iran border - Livemint",
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNTnlRMHRVczV0dVp1Q1RfcFJfRFhuQnpDQk9DekNaUTdiZ2otTGlJRFpzVlhQNTkwZjk5TTlkZ3g1RkFoaVdvSXZiYkd2aE0zRFVNRkpNLUdTTHJWNmJOdEVPS1RaczJ0SEtnUWszSUhVenZwZVI1M3ZMb1l0UUJmcFpXM3I1d0syWk82aEZMTzVZS1RMR04xbnVuakJhMVhhSU5DYlExODNQeU00T1FLd3B2SWR4RHFfY2dzY09hWkJSZ0h6SXJMUXBETHY3b2tHc1lualdEdWgtQTcxaDdiX3d2YWpfc0lSQ2RoQtIB7AFBVV95cUxNTnlRMHRVczV0dVp1Q1RfcFJfRFhuQnpDQk9DekNaUTdiZ2otTGlJRFpzVlhQNTkwZjk5TTlkZ3g1RkFoaVdvSXZiYkd2aE0zRFVNRkpNLUdTTHJWNmJOdEVPS1RaczJ0SEtnUWszSUhVenZwZVI1M3ZMb1l0UUJmcFpXM3I1d0syWk82aEZMTzVZS1RMR04xbnVuakJhMVhhSU5DYlExODNQeU00T1FLd3B2SWR4RHFfY2dzY09hWkJSZ0h6SXJMUXBETHY3b2tHc1lualdEdWgtQTcxaDdiX3d2YWpfc0lSQ2RoQg?oc=5",
+  "source": "Livemint",
+  "summary": "",
+  "published": "2026-10-24T15:55:33+00:00",
+  "score": 4,
+  "category": "Customer & Market",
+  "section": "industry",
+  "region": "global",
+  "theme": "none",
+  "why": "Cross‑border truck stranding, limited relevance to Indian market",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "2af05cf54cb9014e",
+  "title": "India holds 40 pc of global rice exports, key to world food security: Experts - IANS LIVE",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMHFFdEFKRWZCWUgwa2k4akk2ajRtemxlRUpPa3BFYWF2VTVzWEtrT1E2WVR6MUF6dzk1OTE1R0pOU2dLZlItcHBzRGVCbmNia2praVFET0dwVVRkM2Q5b3VLM1VoT19FMWVXWFZlekg3RnVsRjJtcHhrdVlCM3hGek9VdUQ2U0twUXFDX0NBc255bzR2enJUblVmc0NTWmZzNzZvUzVsOVNMNWpDY29zcw?oc=5",
+  "source": "IANS LIVE",
+  "summary": "",
+  "published": "2026-10-24T15:25:00+00:00",
+  "score": 5,
+  "category": "Customer & Market",
+  "section": "industry",
+  "region": "india",
+  "theme": "demand",
+  "why": "India’s rice export share signals freight volume opportunities",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "bbab4dbff1e8d12b",
+  "title": "Road Ministry seeks forensic audit of its portals after vehicle data leak - The Hindu",
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeUxUZnMzdjhlZE5NVkNIZ203QnBYUGRsYnRaTWdBSGZLbHl3MnBqUU50Q0V6NFNLbndLQmlfd25ZWG4yTWhyVS1ZNmk1ampOMDk2RmlpcnI0eWVXU01hSXN0TkF1Z200d2dyeEdsVmNDc3pHdE9QczYwMVJUQzFTWWtndzZ2RXhjSHN4Q0dQbHVkWHRRTnRPLWVKRDNWUzNuRkVhc2xQTnJqSV9sQ0ZETjYxTGJ6X1JKUTRRWl90Ylh3QVZkSmRrWmhwTFB6djd4aG9N0gHTAUFVX3lxTE95TFRmczN2OGVkTk1WQ0hnbTdCcFhQZGxidFpNZ0FIZktseXcycGpRTnRDRXo0U0tud0tCaV93bllYbjJNaHJVLVk2aTVqak4wOTZGaWlycjR5ZVdTTWFJc3ROQXVnbTR3Z3J4R2xWY0Nzekd0T1BzNjAxUlRDMVNZa2d3NnZFeGNIc3hDR1BsdWRYdFFOdE8tZUpEM1ZTM25GRWFzbFBOcmpJX2xDRkRONjFMYnpfUkpRNFFaX3RiWHdBVmRKZGtaaHBMUHp2N3hob00?oc=5",
+  "source": "The Hindu",
+  "summary": "",
+  "published": "2026-10-24T15:14:52+00:00",
+  "score": 6,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Forensic audit may affect data services used by fleet partners",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "22ec1a0a1d249597",
+  "title": "Ritco Logistics NSE:RITCO September 2026 Business Update - Kalkine India",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY1Z6Zk5Oay05S2dlaVgweXRwSDhYaUItTGNSOW5HSzVDclcwaEhHbDMyTk91YUpuZU9NQ0lHa2E4aTJyUXNPQm80RXg5amI1cVZlcFRVY0NTLUlMRFllUkFBbW0ta3VtVmVYakt6cmtjb2JHa3FGZXY5bF9Ba05xb0NfU2h2TDVvUVRuSDdsMGhyS3pWLVhZRVpYckhYcUxobV9MTlJtbDVkWHR1TXItaDZSM3gzcUs1VVRQbG5xUlRyaVljVS15RHRUelFDQQ?oc=5",
+  "source": "Kalkine India",
+  "summary": "",
+  "published": "2026-10-24T14:42:00+00:00",
+  "score": 5,
+  "category": "Competitor",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Ritco Logistics update provides competitor market insight",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "84a035a7abfee967",
+  "title": "BlackBuck Q2FY27 Earnings Call Scheduled 29 October 2026 - Kalkine India",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSndmZ19zUzNXUmQ5ZVFici0tOTllQk5lY2VUby1NUW4tZ0o4djZuYmNqMVFqaEcza0pLdWl0MFYtT1hubFhpdE5UeEdMTHlVY3AzSzR4QmNfOGwweDBQcU9tSmk4R2lRVDFacUNjelBoa0VWQ2UxcVNSNFdJS1pnVDNPR0dmZUNPdVphN2htamxBNXpBWTFHTFU3dVFzQ1FqNEliNGVxaUVBbS0wY2c?oc=5",
+  "source": "Kalkine India",
+  "summary": "",
+  "published": "2026-10-24T13:27:00+00:00",
+  "score": 8,
+  "category": "Competitor",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Track BlackBuck earnings to gauge competitor performance and market trends.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00",
+  "sent": true
+ },
+ {
+  "key": "1ccd46567d5db0ec",
+  "title": "Shafaq News..India targets 74% cut in Iraq-bound rice freight - شفق نيوز",
+  "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc3dWcVZUSG9nejBrejdRR0FuWk1lX0JzVXF5elN6bFVDc1ByeGQteUFkaHBla0ZqQkpUY3l2d2ttdXllR19RcHN2LXlKNnlfaHdnYnhIZVl4MGpwcjRzbVRBQUdLTjVwcWJCbWJqenNqV09wV2NBTjZ3UkFsaFBDX0ZVOVFXQTF5?oc=5",
+  "source": "شفق نيوز",
+  "summary": "",
+  "published": "2026-10-24T12:42:16+00:00",
+  "score": 5,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "demand",
+  "why": "Government target may reduce rice export freight volumes.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "8485e338028b7660",
+  "title": "DAP’s Yeo warns nationwide Waze ban could disrupt logistics and gig economy - Yahoo",
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxON21TZmo5S3dObll5cnNRLWs0OG1Qb0hMSERXdS1oVzBZb203MW9VZGl0V21VbjRPZzRRdEkta1dBS0NBSmtoRjNmNmVoVXA4NHRON1dZVDQzVlM3NV8zQlZKanR1S2dKc3lNWEdMYnF4LTJ1Y3pUZ19nWWc3OUV2ZFpB?oc=5",
+  "source": "Yahoo",
+  "summary": "",
+  "published": "2026-10-24T09:19:12+00:00",
+  "score": 7,
+  "category": "Policy & Regulation",
+  "section": "industry",
+  "region": "india",
+  "theme": "supply",
+  "why": "Seek alternative navigation tools for driver partners after potential Waze ban.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00",
+  "sent": true
+ },
+ {
+  "key": "9e6e42c99b50e616",
+  "title": "Mahindra Logistics MAHLOG Q2 FY27 Results Publication - Kalkine India",
+  "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYTVucUJXYklzNVE5bmJZUGRuNUJkTFdZblgybVVKek1lY3Q4RWNWZlJlSGhsUEREck5jYUVnMzU0Q3RVaE83c295bTd1dmJ5bXZ6RmN5N2ZxLW80MEFpSXNzYU5TNlRmWUxPYkVld1dPdDZpM1Vpa21zcXJPbHl6aWtJVjluczlNTTNRWFVwTGxjbnpydkRZMmhrRm5KamxJTC1rNmFoTUY2OGxUV3gzeEJvVjhvb1VDSlJRNnVqd3VCSE1YLWNJ?oc=5",
+  "source": "Kalkine India",
+  "summary": "",
+  "published": "2026-10-24T08:15:00+00:00",
+  "score": 6,
+  "category": "Competitor",
+  "section": "industry",
+  "region": "india",
+  "theme": "none",
+  "why": "Monitor Mahindra Logistics performance for market demand signals.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "c2e0d514ded84280",
+  "title": "JBHT SWOT Analysis: Strong Revenue Growth Amid Rising Costs Reve - GuruFocus",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOb1NQZUZnbVZhV3FNU0xyWHhKQnRLVXpNZDBseUhZUHhKX3U3UDZnMWlKSXpnTm9iMXNLMjlZekI3cGh2OGppRFdsdUFyTURHS2duYjJvd25KMTBCajBzYW5DaEFTcWNZSHlVV0l1b3BmTENIQ0ZSSjE1S1RmVm9QcGhENkRjSVJkRDBnamZZb3F2SlA5SF9iZllyNDk5WGw1Szc3cms4OG1KZlQzcDMxNE9abGlac2M1UVRKVQ?oc=5",
+  "source": "GuruFocus",
+  "summary": "",
+  "published": "2026-10-24T06:03:08+00:00",
+  "score": 5,
+  "category": "Competitor",
+  "section": "industry",
+  "region": "global",
+  "theme": "none",
+  "why": "JB Hunt analysis offers insights on global trucking cost pressures.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00"
+ },
+ {
+  "key": "e31ad96974c164eb",
+  "title": "Amazon Expands its Supply Chain Services with LTL Freight for All Businesses - National Association of Wholesaler-Distributors",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZEo1dFB1RVpTRGNJQ1U0bkZWQWpZZVAxdTZpamZnSmNiNUdOZllRN2hCbUp4ZzJ3Vy03cTdpM2RaU1hYdHJzNDY1TE5Tb09zVXFxTHNnLTlmNkk3NGhZYi1SQm5LZ0VTSjIwUWdUcld4Tk9DVWZMOGJocXhhdzlsdW1YNDYzbkdNTkJoRHM5QWN1amM0Q291ZThELUlVWTJSUWhTZXhPM1RBUQ?oc=5",
+  "source": "National Association of Wholesaler-Distributors",
+  "summary": "",
+  "published": "2026-10-24T03:42:28+00:00",
+  "score": 9,
+  "category": "Product & VAS",
+  "section": "innovation",
+  "region": "global",
+  "theme": "ptl",
+  "why": "Amazon LTL service creates new competitive pressure in PTL market.",
+  "scored_at": "2026-10-25T07:46:38.165938+00:00",
+  "sent": true
  }
 ]
